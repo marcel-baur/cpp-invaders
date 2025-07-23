@@ -6,5 +6,5 @@ CXX_DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
 
 CXX_INCLUDES = -I/home/marcel/code/game/thirdparty/rlImGui -I/home/marcel/code/game/thirdparty/imgui-docking/imgui -I/home/marcel/code/game/thirdparty/raylib-5.0/src -I/home/marcel/code/game/thirdparty/raylib-5.0/src/external/glfw/include
 
-CXX_FLAGS = -std=gnu++17
+CXX_FLAGS = -std=gnu++20
 

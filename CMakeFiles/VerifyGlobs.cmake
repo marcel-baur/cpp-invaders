@@ -5,6 +5,7 @@ cmake_policy(SET CMP0009 NEW)
 # MY_SOURCES at CMakeLists.txt:43 (file)
 file(GLOB_RECURSE NEW_GLOB LIST_DIRECTORIES false "/home/marcel/code/game/src/*.cpp")
 set(OLD_GLOB
+  "/home/marcel/code/game/src/bullet.cpp"
   "/home/marcel/code/game/src/game.cpp"
   "/home/marcel/code/game/src/hud.cpp"
   "/home/marcel/code/game/src/main.cpp"

@@ -1,4 +1,7 @@
 #pragma once
+#include "bullet.hpp"
+#include "raylib.h"
+#include <vector>
 class Ship {
     public:
         Ship();
@@ -9,9 +12,11 @@ class Ship {
         void Shoot();
         int score;
         float speed;
-        float x;
-        float y;
+        Vector2 position;
+        std::vector<ShipBullet> bullets;
+        double rate;
     private:
         void Init();
+        double lastShot;
 
 };
